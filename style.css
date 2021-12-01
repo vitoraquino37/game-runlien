@@ -1,0 +1,103 @@
+canvas{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    border: 5px solid red;
+}
+
+.ui-canvas {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 512px;
+    height: 512px;
+    z-index: 1;
+}
+
+.ui-score{    
+    color: lightblue;
+    margin-left: 350px;
+    margin-top: -80px;
+}
+
+#ui-life{
+    width: 200px;
+    height: 20px;
+    border: 2px solid yellow;
+    border-radius: 90px;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+
+#ui-barra{
+    width: 0px;
+    height: 20px;
+    border-radius: 90px;
+    background-color:  yellow;
+    margin-top: -18px;
+    margin-left: 0px;
+}
+
+#ui-borDis{
+    width: 400px;
+    height: 20px;
+    border: 2px solid green;
+    border-radius: 90px;
+    margin-top: 210px;
+    margin-left: 50px;
+}
+
+#ui-dis{
+    width: 0px;
+    height: 20px;
+    border-radius: 90px;
+    background-color:  green;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#score{
+    margin-top: -25px;
+    margin-left: 40px; 
+    padding: 0px;
+}
+
+#score1{
+    margin-top: 15px; 
+    padding: 0px;
+}
+
+#playerFora{
+    width: 20px;
+    height: 32px;
+}
+
+#power{
+    margin-top: -40px;
+    margin-left: 40px;
+    padding: 0px;
+    color: yellow;
+}
+
+#play{
+    color: greenyellow;
+    margin-top: 120px;
+    margin-left: 215px;
+}
+
+/*
+.ui-life{
+    width: 200px;
+    height: 20px;
+    background-color: green;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 90px; 
+} */
+
